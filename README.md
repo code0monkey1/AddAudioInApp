@@ -2,7 +2,6 @@
 How to integrate in app audio (simple : without audio controls )
 
 
-/*
  Step 1 : create the buttons to control the play and pause actions for the audio
 
  Step 2 : Declare a media player object ( this will hold the song in it )
@@ -79,10 +78,8 @@ How to integrate in app audio (simple : without audio controls )
     use the scrubSeekBar's setProgress method and then pass in the currentPosition of the song playing by using the
     getCurrentPosition() method of the mediaPlayer object
 
-
-    Step 25 : next , to change the position of the song  as you move the seek bar , use the method seekTo() of the mediaplayer
+Step 25 : next , to change the position of the song  as you move the seek bar , use the method seekTo() of the mediaplayer
     object and pass in the value of the seekbar's current position by using the seekbar's getProgress() method
+   
+   **bug : there are hickups in the song  whenever the recurring update of the seekbar is scheduled ...
 
-    // ** bug : there are hickups in the song  whenever the recurring update of the seekbar is scheduled ...
-
- */
